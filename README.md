@@ -11,6 +11,7 @@ working along the tutorial of https://www.youtube.com/watch?v=SqTdHCTWqks
 - authentication flow
 - gates and policies
 - email
+- job-queue
 
 
 final state should be something like https://github.com/JeffreyWay/30-days-to-learn-laravel/

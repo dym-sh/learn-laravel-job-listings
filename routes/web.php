@@ -6,6 +6,17 @@ use App\Http\Controllers\RegisteredUserController;
 use App\Http\Controllers\SessionController;
 
 
+Route::get('/test', function(){
+
+    $job = \App\Models\Job::first();
+
+    \App\Jobs\TranslateJob::dispatch($job);
+
+    return 'Done';
+
+});
+
+
 Route::view('/', 'home');
 Route::view('/contact', 'contact');
 
