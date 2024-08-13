@@ -12,6 +12,7 @@ working along the tutorial of https://www.youtube.com/watch?v=SqTdHCTWqks
 - gates and policies
 - email
 - job-queue
+- using vite for frontend assets
 
 
 final state should be something like https://github.com/JeffreyWay/30-days-to-learn-laravel/
